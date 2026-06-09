@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+/* ----------------------------------------------------------------
+   PATLI SOLAR — Design tokens (Tailwind v4 @theme)
+   Brand: Green (sustainability) + Sunny Yellow/Orange (solar energy)
+----------------------------------------------------------------- */
+@theme {
+  /* Brand green scale */
+  --color-brand-50: #ecfdf5;
+  --color-brand-100: #d1fae5;
+  --color-brand-200: #a7f3d0;
+  --color-brand-300: #6ee7b7;
+  --color-brand-400: #34d399;
+  --color-brand-500: #16a34a;
+  --color-brand-600: #15803d;
+  --color-brand-700: #166534;
+  --color-brand-800: #14532d;
+  --color-brand-900: #052e16;
+
+  /* Solar (sun) scale */
+  --color-solar-300: #fde68a;
+  --color-solar-400: #fcd34d;
+  --color-solar-500: #facc15;
+  --color-solar-600: #f59e0b;
+  --color-solar-700: #d97706;
+
+  /* Neutrals */
+  --color-ink: #1f2937;
+  --color-ink-soft: #374151;
+
+  /* Fonts (wired in layout.tsx via next/font) */
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-poppins), var(--font-inter), sans-serif;
+
+  /* Animations */
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-spin-slow: spin 22s linear infinite;
+  --animate-shimmer: shimmer 2.5s linear infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1f2937;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Utility: solar gradient text */
+.text-gradient-solar {
+  background: linear-gradient(90deg, var(--color-solar-600), var(--color-solar-500));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Utility: section container */
+.container-x {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
