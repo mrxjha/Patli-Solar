@@ -51,7 +51,7 @@ export const site = {
 
   // ---- DEPLOYMENT ----
   // Set to your live domain once deployed (used for SEO/sitemap/OG).
-  url: "https://patli-solar.vercel.app", // PLACEHOLDER until custom domain
+  url: "https://patli-solar-solutions.vercel.app", // live on Vercel
 
   // ---- FORM BACKEND ----
   // Free key from https://web3forms.com (takes 1 minute, no signup of card).
