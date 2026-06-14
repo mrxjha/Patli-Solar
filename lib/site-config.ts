@@ -37,8 +37,8 @@ export const site = {
 
   // Google Maps EMBED url. To get yours: Google Maps → search your
   // address → Share → "Embed a map" → copy the src="..." URL here.
-  mapEmbedUrl:
-    "https://www.google.com/maps?q=25.6222035,85.1159075&z=17&output=embed", // Patliputra Residency, Boring Canal Rd, Patna
+  mapEmbedUrl: 
+    "https://www.google.com/maps?q=25.622150794000703,85.12050967036362&z=17&output=embed", // Patliputra Residency, Boring Canal Rd, Patna
 
   // ---- SOCIAL LINKS (use "#" to hide until you have them) ----
   socials: {
