@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Sun, ShieldCheck, Leaf } from "lucide-react";
+import { ArrowRight, Sun, ShieldCheck, Leaf, Clock } from "lucide-react";
 import { ButtonLink } from "../ui/Button";
 import { SmartImage } from "../ui/SmartImage";
 import { whatsappLink } from "@/lib/site-config";
@@ -50,7 +50,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold backdrop-blur"
           >
             <Sun className="h-4 w-4 text-solar-400" />
-            Trusted Solar Energy Partner in Bihar
+            Trusted Solar Energy Support
           </motion.span>
 
           <motion.h1
@@ -61,7 +61,7 @@ export function Hero() {
             className="mt-5 font-[family-name:var(--font-display)] text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl"
           >
             Power Your World with{" "}
-            <span className="text-gradient-solar">Clean Solar Energy</span>
+            <span className="text-gradient-solar">Renewable Energy</span>
           </motion.h1>
 
           <motion.p
@@ -71,8 +71,8 @@ export function Hero() {
             animate="show"
             className="mt-5 max-w-xl text-lg text-white/85"
           >
-            End-to-end solar solutions for homes, businesses and industries. Slash your
-            electricity bills, gain energy independence, and build a greener future.
+            End-to-end solar solutions for homes, businesses, institutions and industries.
+            Slash your electricity bills, opt energy independence, and build a greener future.
           </motion.p>
 
           <motion.div
@@ -103,13 +103,16 @@ export function Hero() {
             className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-white/80"
           >
             <span className="flex items-center gap-2">
-              <ShieldCheck className="h-5 w-5 text-solar-400" /> 25-Year Warranty
+              <ShieldCheck className="h-5 w-5 text-solar-400" /> 25+ Years Warranty
             </span>
             <span className="flex items-center gap-2">
               <Leaf className="h-5 w-5 text-solar-400" /> Govt. Subsidy Assistance
             </span>
             <span className="flex items-center gap-2">
               <Sun className="h-5 w-5 text-solar-400" /> Tier-1 Components
+            </span>
+            <span className="flex items-center gap-2">
+              <Clock className="h-5 w-5 text-solar-400" /> 24x7 Available Experts
             </span>
           </motion.div>
         </div>

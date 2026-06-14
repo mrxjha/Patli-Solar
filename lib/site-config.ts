@@ -25,11 +25,11 @@ export const site = {
 
   // ---- ADDRESS (replace placeholders) ----
   address: {
-    line1: "201, White House, Patliputra Residency", // PLACEHOLDER
-    line2: "Anandpuri, Boring Canal Road", // PLACEHOLDER
-    city: "Patna", // PLACEHOLDER
+    line1: "201, White House, Patliputra Residency",
+    line2: "Boring Canal Road, Sri Krishna Nagar, Buddha Colony",
+    city: "Patna",
     state: "Bihar",
-    pincode: "800001", // PLACEHOLDER
+    pincode: "800001",
     country: "India",
   },
 
@@ -38,7 +38,7 @@ export const site = {
   // Google Maps EMBED url. To get yours: Google Maps → search your
   // address → Share → "Embed a map" → copy the src="..." URL here.
   mapEmbedUrl:
-    "https://www.google.com/maps?q=201,+White+House,+Patliputra+Residency,+Anandpuri,+Boring+Canal+Road,+Patna,+Bihar,+800001,+India&output=embed", // PLACEHOLDER
+    "https://www.google.com/maps?q=25.6222035,85.1159075&z=17&output=embed", // Patliputra Residency, Boring Canal Rd, Patna
 
   // ---- SOCIAL LINKS (use "#" to hide until you have them) ----
   socials: {

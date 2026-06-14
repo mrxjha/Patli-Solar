@@ -24,9 +24,9 @@ export const services: Service[] = [
     intro:
       "Turn your rooftop into a power plant. Our residential solar systems are engineered for maximum generation, sleek looks and decades of reliable, low-maintenance performance — helping your family save on bills while going green.",
     benefits: [
-      "Slash monthly electricity bills by up to 90%",
+      "Slash monthly electricity bills by up to 100%",
       "Government subsidy & net-metering assistance",
-      "Premium tier-1 panels with 25-year performance warranty",
+      "Premium tier-1 panels with 25+ year performance warranty",
       "Smart monitoring from your phone",
       "Increases your property value",
     ],
@@ -47,7 +47,7 @@ export const services: Service[] = [
     intro:
       "Offices, showrooms, hospitals and schools can dramatically cut energy expenses with commercial solar. We deliver high-yield systems with fast payback periods and a strong, predictable return on investment.",
     benefits: [
-      "Attractive ROI with 3–5 year typical payback",
+      "Attractive ROI with 3-10 year typical payback",
       "Accelerated depreciation tax benefits",
       "Hedge against rising grid tariffs",
       "Boost your brand's sustainability credentials",

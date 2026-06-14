@@ -11,10 +11,10 @@ export const navItems: NavItem[] = [
 ];
 
 export const stats = [
-  { value: 50, suffix: "+", label: "Installations Completed" },
-  { value: 250, suffix: " kW+", label: "Clean Energy Installed" },
+  { value: 75, suffix: "+", label: "Installations Completed" },
+  { value: 2500, suffix: " kW+", label: "Solar Energy Installed" },
   { value: 98, suffix: "%", label: "Customer Satisfaction" },
-  { value: 3, suffix: "+", label: "Years of Expertise" },
+  { value: 5, suffix: "+", label: "Years of Expertise" },
 ];
 
 // "Why choose us" pillars

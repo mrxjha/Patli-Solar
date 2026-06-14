@@ -15,8 +15,10 @@ export function Logo({ light = false }: { light?: boolean }) {
         <span className={`font-[family-name:var(--font-display)] text-base font-extrabold tracking-tight ${light ? "text-white" : "text-ink"}`}>
           PATLI <span className="text-brand-600">SOLAR</span>
         </span>
-        <span className={`text-[10px] font-medium uppercase tracking-[0.2em] ${light ? "text-white/70" : "text-ink-soft/70"}`}>
-          Solutions
+        <span className={`flex w-full justify-between text-[10px] font-medium uppercase ${light ? "text-white/70" : "text-ink-soft/70"}`}>
+          {"SOLUTIONS".split("").map((c, i) => (
+            <span key={i}>{c}</span>
+          ))}
         </span>
       </span>
     </Link>

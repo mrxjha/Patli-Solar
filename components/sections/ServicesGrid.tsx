@@ -13,7 +13,7 @@ export function ServicesGrid({ limit }: { limit?: number }) {
         <SectionHeading
           eyebrow="What We Offer"
           title="Complete Solar Solutions"
-          subtitle="From a single rooftop to megawatt-scale plants — we handle design, installation and maintenance under one roof."
+          subtitle="From a single rooftop to megawatt-scale plants — we handle design, installation, commissioning and maintenance under one roof."
         />
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
