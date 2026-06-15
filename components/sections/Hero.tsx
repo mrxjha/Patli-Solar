@@ -50,7 +50,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold backdrop-blur"
           >
             <Sun className="h-4 w-4 text-solar-400" />
-            Trusted Solar Energy Support
+            Trusted Solar Energy Supports
           </motion.span>
 
           <motion.h1

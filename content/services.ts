@@ -65,8 +65,10 @@ export const services: Service[] = [
     title: "Industrial Solar Solutions",
     short: "Megawatt-scale solar for factories and large facilities.",
     icon: Factory,
-    image: "/images/installations/ground-mount-solar-pump.png",
-    hero: "/images/installations/ground-mount-solar-pump.png",
+    image:
+      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1200&q=75",
+    hero:
+      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1600&q=75",
     intro:
       "From manufacturing plants to warehouses, our industrial solar installations deliver large-scale, dependable clean power. We handle ground-mount, rooftop and hybrid systems with robust engineering for demanding loads.",
     benefits: [
