@@ -29,13 +29,13 @@ export const projects: Project[] = [
       "On-grid home rooftop system installed by our in-house team, cutting the family's monthly electricity bill substantially.",
   },
   {
-    title: "Ground-Mount Solar Water Pump",
+    title: "Industrial Rooftop Solar Plant",
     category: "Industrial",
-    location: "Rural Bihar",
+    location: "Bihar",
     capacity: "5 kW",
     image: "/images/installations/industrial-solar.png",
     summary:
-      "Ground-mounted array powering an agricultural water pump — reliable irrigation with zero running cost.",
+      "Large-scale rooftop array on an industrial facility — cutting grid dependency and reducing operating costs significantly.",
   },
   {
     title: "On-Grid System with WAAREE Inverter",
