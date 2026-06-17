@@ -33,7 +33,7 @@ export const projects: Project[] = [
     category: "Industrial",
     location: "Rural Bihar",
     capacity: "5 kW",
-    image: "/images/installations/ground-mount-solar-pump.png",
+    image: "/images/installations/industrial-solar.png",
     summary:
       "Ground-mounted array powering an agricultural water pump — reliable irrigation with zero running cost.",
   },
