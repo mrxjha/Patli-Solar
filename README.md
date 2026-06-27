@@ -5,7 +5,7 @@ A modern, fast, SEO-friendly marketing website for **PATLI SOLAR SOLUTIONS**, bu
 
 Pages: Home, About, Services (+ 5 service detail pages), Projects, FAQ, Contact — with an
 enquiry form (email + WhatsApp), floating Call/WhatsApp buttons, Google Maps embed,
-animations, and full mobile responsiveness.
+animations, and full mobile responsiveness.                                                                           
 
 ---
 
